@@ -1,0 +1,16 @@
+.streak-badge {
+  display: inline-block;
+  background: #ff9800;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(255, 152, 0, 0.6);
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.streak-badge:hover {
+  background-color: #e67e22;
+}

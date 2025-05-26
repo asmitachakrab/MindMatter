@@ -1,0 +1,23 @@
+/* For smaller devices */
+@media (max-width: 768px) {
+  .auth-form, 
+  .forum-container, 
+  .dashboard-container {
+    margin: 20px;
+    padding: 1rem;
+    width: auto;
+  }
+
+  .forum-post {
+    font-size: 0.9rem;
+  }
+
+  .chart-title {
+    font-size: 1.2rem;
+  }
+
+  .streak-badge {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}

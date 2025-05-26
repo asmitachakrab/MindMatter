@@ -1,0 +1,49 @@
+/* src/styles/App.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  height: 100vh;           /* full viewport height */
+  text-align: center;
+  gap: 1.5rem;
+  background-color: #f0f4f8; /* light background, optional */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.home-buttons button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.home-buttons button:hover {
+  background-color: #45a049;
+}
+
+.home-action-btn {
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.home-action-btn:hover {
+  background-color: #0b7dda;
+}
